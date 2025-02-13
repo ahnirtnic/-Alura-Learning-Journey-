@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-notas = pd.read_csv('ratings.csv')
+notas = pd.read_csv("https://raw.githubusercontent.com/ahnirtnic/-Alura-Learning-Journey-/refs/heads/main/alura-explorando-e-analisando-dados/ratings.csv.csv")
 notas
 
 notas.shape
